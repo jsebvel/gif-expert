@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test about gif greed item snapshot should match 1`] = `
+<div
+  className="card "
+>
+  <p>
+    some title
+  </p>
+  <img
+    alt="some title"
+    src="some url"
+  />
+</div>
+`;
