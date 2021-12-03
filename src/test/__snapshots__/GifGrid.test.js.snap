@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on GifGrid Should show items where images are loaded 1`] = `
+<Fragment>
+  <h3>
+    guitar
+  </h3>
+  <div
+    className="card-grid animate__animated animate__bounce"
+  >
+    <GifGreedItem
+      id="ABC"
+      key="ABC"
+      title="any title"
+      url="https://anything"
+    />
+    <GifGreedItem
+      id="ABCD"
+      key="ABCD"
+      title="any titleD"
+      url="https://anythingD"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Test on GifGrid Snapshot should match 1`] = `
+<Fragment>
+  <h3>
+    guitar
+  </h3>
+  <p
+    className="animate_animated animate_fadeIn"
+  >
+    guitar
+  </p>
+  <div
+    className="card-grid animate__animated animate__bounce"
+  />
+</Fragment>
+`;
